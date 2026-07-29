@@ -6,6 +6,7 @@ from datetime import date, datetime
 
 def create_task():
     name = input("Task name: ")
+    # test
     task_type = input("Task type: ")
     allocated_time = int(input("Allocated hours: "))
 
